@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       modern-tar:
-        specifier: https://pkg.pr.new/ayuhito/modern-tar@1fa2179
-        version: https://pkg.pr.new/ayuhito/modern-tar@1fa2179
+        specifier: ^0.3.5
+        version: 0.3.5
     devDependencies:
       '@types/node':
         specifier: ^22.15.33
@@ -27,9 +27,8 @@ packages:
   '@types/node@22.15.33':
     resolution: {integrity: sha512-wzoocdnnpSxZ+6CjW4ADCK1jVmd1S/J3ArNWfn8FDDQtRm8dkDg7TA+mvek2wNrfCgwuZxqEOiB9B1XCJ6+dbw==}
 
-  modern-tar@https://pkg.pr.new/ayuhito/modern-tar@1fa2179:
-    resolution: {tarball: https://pkg.pr.new/ayuhito/modern-tar@1fa2179}
-    version: 0.3.4
+  modern-tar@0.3.5:
+    resolution: {integrity: sha512-TIALaZ8AjtEHFOZj1wRreDfaobCybvzPkvevpup/XtKOha3TmJWSwrh0ghc/QwAdAtt6oqIN6z6eIlo+HbDnzg==}
     engines: {node: '>=18.0.0'}
 
   prettier@3.6.0:
@@ -51,7 +50,7 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
-  modern-tar@https://pkg.pr.new/ayuhito/modern-tar@1fa2179: {}
+  modern-tar@0.3.5: {}
 
   prettier@3.6.0: {}
 
